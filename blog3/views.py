@@ -8,4 +8,4 @@ def index(request):
     
     return HttpResponse('<h1>welcometo index page</h1>')
 def fun(request):
-    return render(request,'login.html')
+    return render(request,'index.html')
